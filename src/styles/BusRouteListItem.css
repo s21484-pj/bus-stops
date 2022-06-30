@@ -1,0 +1,28 @@
+.bus-route-list-item {
+    width: 100%;
+}
+
+.bus-route-list-item > * {
+    margin-bottom: 1%;
+}
+
+.bus-route-list-item > *:last-child {
+    margin-bottom: 0;
+}
+
+.bus-route-list-item__wrapper {
+    width: 100%;
+}
+
+.bus-route-list-item__wrapper--arrival-list {
+    margin: 0 0 3% 10%;
+    display: flex;
+}
+
+.bus-route-list-item__wrapper--arrival-list > * {
+    margin-right: 5%;
+}
+
+.bus-route-list-item__wrapper--arrival-list > *:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,24 @@
+.page-layout {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-layout > * {
+    margin-bottom: 5%;
+}
+
+.page-layout__back-button {
+    position: relative;
+    appearance: none;
+    border: none;
+    background-color: inherit;
+    align-self: start;
+    font-size: var(--l);
+    cursor: pointer;
+}
+
+.page-layout__back-button:hover {
+    text-decoration: underline;
+}

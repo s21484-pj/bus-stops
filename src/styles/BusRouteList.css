@@ -1,0 +1,4 @@
+.bus-route-list a {
+    width: 100%;
+    font-size: var(--l);
+}

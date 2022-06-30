@@ -1,0 +1,15 @@
+.bus-routes-layout {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.bus-routes-layout__content-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bus-routes-layout__content-wrapper > * {
+    width: 40%;
+}

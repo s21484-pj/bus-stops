@@ -1,0 +1,9 @@
+.list-item {
+    font-size: var(--l);
+}
+
+.list-item-bg {
+    padding: 1%;
+    background: var(--red);
+    color: var(--white);
+}

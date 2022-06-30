@@ -1,0 +1,373 @@
+{
+  "buses": [
+    {
+      "id": 1,
+      "busNumber": "110",
+      "busRoutes": {
+        "routeA": {
+          "id": 1,
+          "routeLabel": "Zaspa SKM - Dworzec Główny",
+          "busStops": [
+            {
+              "id": 1,
+              "busStopName": "Zaspa SKM",
+              "arrivalTime": ["12:45", "13:45", "14:45"]
+            },
+            {
+              "id": 2,
+              "busStopName": "Wrzeszcz - Galeria Bałtycka",
+              "arrivalTime": ["12:55", "13:55", "14:55"]
+            },
+            {
+              "id": 3,
+              "busStopName": "Miszewskiego - Teatr Miniatura",
+              "arrivalTime": ["13:00", "14:00", "15:00"]
+            },
+            {
+              "id": 4,
+              "busStopName": "Uniwersytet Medyczny",
+              "arrivalTime": ["13:10", "14:10", "15:10"]
+            },
+            {
+              "id": 5,
+              "busStopName": "Dworzec Główny",
+              "arrivalTime": ["13:15", "14:15", "15:15"]
+            }
+          ]
+        },
+        "routeB": {
+          "id": 2,
+          "routeLabel": "Dworzec Główny - Zaspa SKM",
+          "busStops": [
+            {
+              "id": 5,
+              "busStopName": "Dworzec Główny",
+              "arrivalTime": ["12:45", "13:45", "14:45"]
+            },
+            {
+              "id": 4,
+              "busStopName": "Uniwersytet Medyczny",
+              "arrivalTime": ["12:55", "13:55", "14:55"]
+            },
+            {
+              "id": 3,
+              "busStopName": "Miszewskiego - Teatr Miniatura",
+              "arrivalTime": ["13:00", "14:00", "15:00"]
+            },
+            {
+              "id": 2,
+              "busStopName": "Wrzeszcz - Galeria Bałtycka",
+              "arrivalTime": ["13:10", "14:10", "15:10"]
+            },
+            {
+              "id": 1,
+              "busStopName": "Zaspa SKM",
+              "arrivalTime": ["13:05", "14:05", "15:05"]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "busNumber": "210",
+      "busRoutes": {
+        "routeA": {
+          "id": 3,
+          "routeLabel": "Zaspa SKM - Orunia Dolna",
+          "busStops": [
+            {
+              "id": 1,
+              "busStopName": "Zaspa SKM",
+              "arrivalTime": ["12:55", "13:55", "14:55"]
+            },
+            {
+              "id": 2,
+              "busStopName": "Wrzeszcz - Galeria Bałtycka",
+              "arrivalTime": ["13:00", "14:00", "15:00"]
+            },
+            {
+              "id": 3,
+              "busStopName": "Miszewskiego - Teatr Miniatura",
+              "arrivalTime": ["13:05", "14:05", "15:05"]
+            },
+            {
+              "id": 4,
+              "busStopName": "Uniwersytet Medyczny",
+              "arrivalTime": ["13:15", "14:15", "15:15"]
+            },
+            {
+              "id": 5,
+              "busStopName": "Dworzec Główny",
+              "arrivalTime": ["13:20", "14:20", "15:20"]
+            },
+            {
+              "id": 6,
+              "busStopName": "Brama Wyżynna",
+              "arrivalTime": ["13:25", "14:25", "15:25"]
+            },
+            {
+              "id": 7,
+              "busStopName": "Orunia Dolna",
+              "arrivalTime": ["13:35", "14:35", "15:35"]
+            }
+          ]
+        },
+        "routeB": {
+          "id": 4,
+          "routeLabel": "Orunia Dolna - Zaspa SKM",
+          "busStops": [
+            {
+              "id": 7,
+              "busStopName": "Orunia Dolna",
+              "arrivalTime": ["13:55", "14:55", "15:55"]
+            },
+            {
+              "id": 6,
+              "busStopName": "Brama Wyżynna",
+              "arrivalTime": ["14:05", "15:05", "16:05"]
+            },
+            {
+              "id": 5,
+              "busStopName": "Dworzec Główny",
+              "arrivalTime": ["14:10", "15:10", "16:10"]
+            },
+            {
+              "id": 4,
+              "busStopName": "Uniwersytet Medyczny",
+              "arrivalTime": ["14:15", "15:15", "16:15"]
+            },
+            {
+              "id": 3,
+              "busStopName": "Miszewskiego - Teatr Miniatura",
+              "arrivalTime": ["14:20", "15:20", "16:20"]
+            },
+            {
+              "id": 2,
+              "busStopName": "Wrzeszcz - Galeria Bałtycka",
+              "arrivalTime": ["14:25", "15:25", "16:25"]
+            },
+            {
+              "id": 1,
+              "busStopName": "Zaspa SKM",
+              "arrivalTime": ["14:30", "15:30", "16:30"]
+            }
+          ]
+        }
+      }
+    }
+  ],
+
+  "busStops": [
+    {
+      "id": 1,
+      "busStopName": "Zaspa SKM",
+      "buses": [
+        {
+          "id": 1,
+          "busNumber": "110",
+          "routeA": {
+            "id": 1,
+            "routeLabel": "Zaspa SKM - Dworzec Główny",
+            "arrivalTime": ["12:45", "13:45", "14:45"]
+          },
+          "routeB": {
+            "id": 2,
+            "routeLabel": "Dworzec Główny - Zaspa SKM",
+            "arrivalTime": ["13:05", "14:05", "15:05"]
+          }
+        },
+        {
+          "id": 2,
+          "busNumber": "210",
+          "routeA": {
+            "id": 3,
+            "routeLabel": "Zaspa SKM - Orunia Dolna",
+            "arrivalTime": ["12:55", "13:55", "14:55"]
+          },
+          "routeB": {
+            "id": 4,
+            "routeLabel": "Dworzec Główny - Zaspa SKM",
+            "arrivalTime": ["14:30", "15:30", "16:30"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "busStopName": "Wrzeszcz - Galeria Bałtycka",
+      "buses": [
+        {
+          "id": 1,
+          "busNumber": "110",
+          "routeA": {
+            "id": 1,
+            "routeLabel": "Zaspa SKM - Dworzec Główny",
+            "arrivalTime": ["12:55", "13:55", "14:55"]
+          },
+          "routeB": {
+            "id": 2,
+            "routeLabel": "Dworzec Główny - Zaspa SKM",
+            "arrivalTime": ["13:10", "14:10", "15:10"]
+          }
+        },
+        {
+          "id": 2,
+          "busNumber": "210",
+          "routeA": {
+            "id": 3,
+            "routeLabel": "Zaspa SKM - Orunia Dolna",
+            "arrivalTime": ["13:00", "14:00", "15:00"]
+          },
+          "routeB": {
+            "id": 4,
+            "routeLabel": "Orunia Dolna - Zaspa SKM",
+            "arrivalTime": ["14:25", "15:25", "16:25"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "busStopName": "Miszewskiego - Teatr Miniatura",
+      "buses": [
+        {
+          "id": 1,
+          "busNumber": "110",
+          "routeA": {
+            "id": 1,
+            "routeLabel": "Zaspa SKM - Dworzec Główny",
+            "arrivalTime": ["13:00", "14:00", "15:00"]
+          },
+          "routeB": {
+            "id": 2,
+            "routeLabel": "Dworzec Główny - Zaspa SKM",
+            "arrivalTime": ["13:00", "14:00", "15:00"]
+          }
+        },
+        {
+          "id": 2,
+          "busNumber": "210",
+          "routeA": {
+            "id": 3,
+            "routeLabel": "Zaspa SKM - Orunia Dolna",
+            "arrivalTime": ["13:05", "14:05", "15:05"]
+          },
+          "routeB": {
+            "id": 4,
+            "routeLabel": "Dworzec Główny - Zaspa SKM",
+            "arrivalTime": ["14:20", "15:20", "16:20"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "busStopName": "Uniwersytet Medyczny",
+      "buses": [
+        {
+          "id": 1,
+          "busNumber": "110",
+          "routeA": {
+            "id": 1,
+            "routeLabel": "Zaspa SKM - Dworzec Główny",
+            "arrivalTime": ["13:10", "14:10", "15:10"]
+          },
+          "routeB": {
+            "id": 2,
+            "routeLabel": "Dworzec Główny - Zaspa SKM",
+            "arrivalTime": ["12:55", "13:55", "14:55"]
+          }
+        },
+        {
+          "id": 2,
+          "busNumber": "210",
+          "routeA": {
+            "id": 3,
+            "routeLabel": "Zaspa SKM - Orunia Dolna",
+            "arrivalTime": ["13:15", "14:15", "15:15"]
+          },
+          "routeB": {
+            "id": 4,
+            "routeLabel": "Dworzec Główny - Zaspa SKM",
+            "arrivalTime": ["14:15", "15:15", "16:15"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "busStopName": "Dworzec Główny",
+      "buses": [
+        {
+          "id": 1,
+          "busNumber": "110",
+          "routeA": {
+            "id": 1,
+            "routeLabel": "Zaspa SKM - Dworzec Główny",
+            "arrivalTime": ["13:15", "14:15", "15:15"]
+          },
+          "routeB": {
+            "id": 2,
+            "routeLabel": "Dworzec Główny - Zaspa SKM",
+            "arrivalTime": ["12:45", "13:45", "14:45"]
+          }
+        },
+        {
+          "id": 2,
+          "busNumber": "210",
+          "routeA": {
+            "id": 3,
+            "routeLabel": "Zaspa SKM - Orunia Dolna",
+            "arrivalTime": ["13:20", "14:20", "15:20"]
+          },
+          "routeB": {
+            "id": 4,
+            "routeLabel": "Dworzec Główny - Zaspa SKM",
+            "arrivalTime": ["14:10", "15:10", "16:10"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "busStopName": "Brama Wyżynna",
+      "buses": [
+        {
+          "id": 2,
+          "busNumber": "210",
+          "routeA": {
+            "id": 3,
+            "routeLabel": "Zaspa SKM - Orunia Dolna",
+            "arrivalTime": ["13:25", "14:25", "15:25"]
+          },
+          "routeB": {
+            "id": 4,
+            "routeLabel": "Dworzec Główny - Zaspa SKM",
+            "arrivalTime": ["14:05", "15:05", "16:05"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "busStopName": "Orunia Dolna",
+      "buses": [
+        {
+          "id": 2,
+          "busNumber": "210",
+          "routeA": {
+            "id": 3,
+            "routeLabel": "Zaspa SKM - Orunia Dolna",
+            "arrivalTime": ["13:35", "14:35", "15:35"]
+          },
+          "routeB": {
+            "id": 4,
+            "routeLabel": "Dworzec Główny - Zaspa SKM",
+            "arrivalTime": ["13:55", "14:55", "15:55"]
+          }
+        }
+      ]
+    }
+  ]
+}

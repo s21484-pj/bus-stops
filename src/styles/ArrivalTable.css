@@ -1,0 +1,37 @@
+.arrival-table {
+    padding: 2%;
+    background: var(--black);
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.arrival-table__header {
+    width: 100%;
+    font-size: var(--l);
+}
+
+.arrival-table__header--row {
+    width: 100%;
+}
+
+.arrival-table__header--row th {
+    width: 30%;
+}
+
+.arrival-table__body > tr {
+    text-align: center;
+    font-weight: bold;
+}
+
+.arrival-table__body--bus-number {
+    font-size: var(--l);
+}
+
+.arrival-table__footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+.arrival-table__footer tr > td {
+    padding-top: 3%;
+}

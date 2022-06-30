@@ -1,0 +1,18 @@
+.nav-bar {
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--red);
+    color: var(--white);
+    font-family: "Times New Roman", Times, serif;
+}
+
+.nav-bar__header {
+    font-size: var(--xxl);
+}
+
+.nav-bar__nav-menu {
+    font-size: var(--l);
+    font-weight: 900;
+}
